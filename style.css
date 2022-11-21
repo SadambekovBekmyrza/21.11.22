@@ -4,7 +4,7 @@
 .box {
   border-radius: 10px;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.267);
-  padding: 15px;
+  padding: 10px;
   margin-bottom: 15px;
 }
 .sidebar {
@@ -16,10 +16,32 @@
 }
 .blue {
   background-color: rgb(50, 50, 156);
+  color: white;
+  font-size: 20px;
+}
+.blue a {
+  color: white;
+  text-decoration: none;
+}
+.blue ul {
+  list-style-type: none;
 }
 .container {
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.603);
   margin: 50px;
   padding: 20px 40px;
   display: flex;
+}
+.img {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+.blue p {
+  margin-bottom: 50px;
+  font-size: 18px;
+}
+.blue li {
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
